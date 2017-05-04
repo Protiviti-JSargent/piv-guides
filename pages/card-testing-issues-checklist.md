@@ -20,12 +20,12 @@ Each entry topic is linked to its section below listing details and how to check
 
 Topic|Type| Credential Affected
 ---|---|---
-[Missing entryUUID OID and cardUUID in Biometric Objects](#missing-entry-uuid-oid-and-card-uuid-in-biometric-objects)|Issue|PIV
+[Missing entryUUID OID and cardUUID in Biometric Objects](#missing-entryuuid-oid-and-carduuid-object-in-biometric-objects)|Issue|PIV
 [Cardholder Certificates Valid for Over 3 Years](#cardholder-certificates-valid-for-over-3-years)|Issue|PIV & PIV-I
 [Missing UUID in the SAN Extension of the PIV Auth and Card Auth Certificates](#missing-uuid-in-the-san-extension-of-the-piv-auth-and-card-auth-certificates)|Issue|PIV
-[Content Signing Certificate Does Not Assert `id-fpki-common-contentSigning`](#content-signing-certificate-does-not-assert-id-fpki-common-contentsigning)|Issue|PIV
+[Content Signing Certificate Does Not Assert `id-fpki-common-contentSigning`](#uuid-appears-before-the-fasc-n-in-the-san-extension-of-the-card-authentication-certificate)|Issue|PIV
 [Facial Image Data Type Specifies Wrong Image Format](#facial-image-data-type-specifies-wrong-image-format)|Issue|PIV & PIV-I
-[UUID Appears Before the FASC-N in the Card Auth Cert SAN Extension](#uuid-appears-before-the-fasc-n-in-the-card-auth-cert-san-extension)|Note|PIV
+[UUID Appears Before the FASC-N in the SAN Extension of the Card Auth Certifcate](#uuid-appears-before-the-fasc-n-in-the-card-auth-cert-san-extension)|Note|PIV
 [Card Uses Deprecated Applet Version](#card-uses-deprecated-applet-version)|Note|PIV & PIV-I
 [Printed Information Container Uses the ‘Employee Affiliation Line 2’ Tag](#printed-information-container-uses-the-employee-affiliation-line-2-tag)|Note|PIV & PIV-I
 [Digital Signature Certificate Asserts Software Policy Rather Than Hardware](#digital-signature-certificate-asserts-software-policy-rather-than-hardware)|Note|PIV & PIV-I
@@ -264,7 +264,7 @@ Running the NIST 85b test tool (PIV-I 1.1 based on PIV 6.2.0) will check the car
 
 ---
 
-### **Digital Signature Certificates Asserts Software-Policy Rather Than Hardware**
+### **Digital Signature Certificate Asserts Software Policy Rather Than Hardware**
 
 *	This is an interoperability note
 *	This note applies to PIV credentials
